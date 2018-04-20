@@ -14,10 +14,12 @@
     "classnames": "^2.2.5",
     "create-react-class": "^15.6.3",
     "history": "^4.7.2",
+    "html-webpack-plugin": "^3.2.0",
     "immutability-helper": "^2.6.6",
     "jquery": "^3.3.1",
     "material-ui": "^0.20.0",
     "react": "^16.2.0",
+    "react-dev-tools": "0.0.1",
     "react-dom": "^16.2.0",
     "react-froala-wysiwyg": "^2.7.6",
     "react-history": "^0.18.2",
@@ -29,11 +31,10 @@
     "redux": "^3.7.2",
     "redux-devtools-extension": "^2.13.2",
     "redux-thunk": "^2.2.0",
-    "webpack": "^4.2.0",
     "webpack-dev-server": "^3.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=3000 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
@@ -43,6 +44,7 @@
     "eslint": "^4.19.1",
     "eslint-loader": "^2.0.0",
     "eslint-plugin-react": "^7.7.0",
-    "react-hot-loader": "^4.0.0"
+    "react-hot-loader": "^4.0.0",
+    "webpack": "^4.5.0"
   }
 }

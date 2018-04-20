@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+
+@import url("bootstrap/dist/css/bootstrap.min.css");
+@import url("font-awesome/css/font-awesome.min.css");
+@import url("Ionicons/css/ionicons.min.css");
+@import url("dataTables.bootstrap.min.css");
+@import url("admin.css");
+@import url("skin-blue.min.css");
+@import url("SegoeUI/SegoeUI-font.css");
+@import url("custom.css");
